@@ -1,0 +1,5 @@
+require("devtools")
+install_github(repo = 'aushev/base64enc') # , ref = 'patch-1'
+library("base64enc")
+
+encoded <- "H4sIAAAAAAAABoVQywrCMBBc8zi0ICiCPyHme7yVrU0hkEZIA/XofwvWTUwQc/Ewy2SyOzvJpQUABpwxYJwoP1DZEHYECQKaeD5nwnHqa+1LTgCCpfGPIB1Oes5eReSD8VVf42+LKr3bmOdBZV3XZ214tTgXQ5bFdsCAKmBv9Y8yenKsDPbKuKC9Q6tmbUevRxKPGa+MP2mlcYO+0/6YFOrLrksT6RkyI36nSInJsCx6A7sXoh15AQAA"
